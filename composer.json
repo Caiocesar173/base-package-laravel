@@ -1,0 +1,40 @@
+{
+    "name": "caiocesar173/base-package-laravel",
+    "description": "Custom MOdules Laravel Package",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.3|^8.0",
+        "caiocesar173/laravel-utils": "dev-main"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Caiocesar173\\BasePackage\\": "src/"
+        } 
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Caiocesar173\\BasePackage\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Caiocesar173\\BasePackage\\Providers\\BasePackageServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "caiocesar173",
+            "email": "caiocesar173caiocesar173@gmail.com"
+        }
+    ]
+}

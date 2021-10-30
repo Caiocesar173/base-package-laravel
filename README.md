@@ -1,2 +1,2 @@
-# custom-modules-laravel
+# base-package-laravel
 Custom Modules Package
